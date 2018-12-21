@@ -342,35 +342,35 @@ visualize_model(model_ft)
 ```
 
 
-![png](output_26_0.png)
+![png](Flowers_classification/output_26_0.png)
 
 
 
-![png](output_26_1.png)
+![png](Flowers_classification/output_26_1.png)
 
 
 
-![png](output_26_2.png)
+![png](Flowers_classification/output_26_2.png)
 
 
 
-![png](output_26_3.png)
+![png](Flowers_classification/output_26_3.png)
 
 
 
-![png](output_26_4.png)
+![png](Flowers_classification/output_26_4.png)
 
 
 
-![png](output_26_5.png)
+![png](Flowers_classification/output_26_5.png)
 
 
 
-![png](output_26_6.png)
+![png](Flowers_classification/output_26_6.png)
 
 
 
-![png](output_26_7.png)
+![png](Flowers_classification/output_26_7.png)
 
 
 #Checking model's accuracy on test set(This is top-1 accuracy)
