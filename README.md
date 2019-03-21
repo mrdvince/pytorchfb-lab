@@ -6,7 +6,7 @@ Training images are 6552, validation images are 818 and test images are 819.
 Mount google drive with Colab and place the dataset in zipped format on Google drive to access it. Or alternatively use wget to download the zipped files directly to your current runtime with:
 ```!wget 'https://s3.amazonaws.com/content.udacity-data.com/courses/nd188/flower_data.zip'```
 
-##Checking model's accuracy on test set(This is top-1 accuracy)
+## Checking model's accuracy on test set(This is top-1 accuracy)
 
 
 ```python
@@ -42,8 +42,8 @@ calc_accuracy(model_ft, 'test')
 
     Test Accuracy: 0.9573
 
-#Inference for classification
-#Class Prediction
+# Inference for classification
+# Class Prediction
 OnceI have got images in the correct format, I have written a function for making predictions with my model. A common practice is to predict the top 5 or so (usually called top- K ) most probable classes. I have calculated the class probabilities then find the  K  largest values.
 
 To get the top  K  largest values in a tensor I have used x.topk(k). This method returns both the highest k probabilities and the indices of those probabilities corresponding to the classes. I have converted these indices to image names using class_names got from cat_to_name.json
